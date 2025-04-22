@@ -23,3 +23,7 @@ Thumbs.db
 # Python (caso use em functions ou scripts)
 __pycache__/
 *.pyc
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
