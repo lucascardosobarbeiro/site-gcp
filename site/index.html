@@ -2,9 +2,39 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Meu Site Estático na GCP</title>
+  <title>Site Estático GCP</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+      text-align: center;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Deploy automático com Terraform + GitHub Actions!</h1>
+  <div class="card">
+    <h1>🚀 Site Estático GCP</h1>
+    <p>Este site está sendo hospedado com Google Cloud Storage e deploy automático via GitHub Actions.</p>
+  </div>
 </body>
 </html>
