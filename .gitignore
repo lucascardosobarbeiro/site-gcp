@@ -1,0 +1,25 @@
+# Ignore arquivos e pastas locais do Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+terraform.tfvars
+
+# Ignore arquivos de autenticação
+*.pem
+*.key
+*.json
+
+# Logs e sistemas operacionais
+*.log
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Arquivos do VSCode
+.vscode/
+
+# Python (caso use em functions ou scripts)
+__pycache__/
+*.pyc
