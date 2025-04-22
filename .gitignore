@@ -27,4 +27,16 @@ __pycache__/
 *.tfstate
 *.tfstate.backup
 terraform.tfvars
+
+# Ignora diretórios e arquivos do Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+
+# Ignora arquivos binários pesados
 *.exe
+
+# Ignora backups e arquivos de log
+*.log
+*.bak
